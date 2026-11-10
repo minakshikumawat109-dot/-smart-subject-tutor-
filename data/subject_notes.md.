@@ -1,0 +1,61 @@
+Subject: Artificial Intelligence (B.Tech CSE Core)
+#Topic 1: Artificial Intelligence vs Machine Learning
+Artificial Intelligence (AI) is a branch of computer science that focuses on developing intelligent machines capable of performing tasks that normally require human intelligence, such as reasoning, problem-solving, decision-making, and language understanding. AI systems use algorithms, logical rules, and computational models to simulate intelligent human behavior.
+
+Machine Learning (ML) is a subset of Artificial Intelligence that enables computers to learn patterns from data and improve their performance without being explicitly programmed for every task. Unlike traditional programming, where instructions are manually provided, ML models identify patterns from training data and use them to make predictions. Deep Learning (DL) is a further subset of ML that uses multi-layered neural networks to solve complex problems.
+
+#Topic 2: Search Algorithms and the A* Algorithm
+Search Algorithms are fundamental techniques in Artificial Intelligence used to explore different possible states and find solutions to a given problem. These algorithms are commonly used in pathfinding, game playing, robotics, and decision-making systems.
+
+The A* (A-Star) Algorithm is an informed search algorithm that finds the shortest path between an initial state and a goal state by evaluating nodes using the evaluation function:
+
+f
+(
+n
+)
+=
+g
+(
+n
+)
++
+h
+(
+n
+)
+f(n)=g(n)+h(n)
+Where:
+
+g(n): Represents the actual cost of reaching the current node from the starting node.
+
+h(n): Represents the estimated cost of reaching the goal node from the current node.
+
+f(n): Represents the total estimated cost of the path through the current node.
+
+A* selects the node with the lowest estimated total cost. It is complete and optimal when the heuristic satisfies the required conditions, such as admissibility. It is widely used in GPS navigation, robotics, and video game pathfinding.
+
+#Topic 3: Artificial Neural Networks and Backpropagation
+An Artificial Neural Network (ANN) is a computational model inspired by the structure and functioning of the human brain. It consists of interconnected processing units called Neurons, which are organized into three main layers: Input Layer, Hidden Layer, and Output Layer.
+
+Each neuron receives input values, processes them using weights and biases, and applies an Activation Function to generate an output. The input layer receives the data, hidden layers perform computations, and the output layer produces the final prediction.
+
+Backpropagation is a supervised learning algorithm used to train neural networks by calculating the difference between predicted and actual outputs. The error is propagated backward through the network, and the weights and biases are adjusted using optimization techniques such as Gradient Descent. This process is repeated over multiple iterations to minimize the prediction error and improve model accuracy.
+
+#Topic 4: Natural Language Processing and Its Techniques
+Natural Language Processing (NLP) is a branch of Artificial Intelligence that enables computers to understand, interpret, analyze, and generate human languages. It combines computational linguistics, machine learning, and deep learning techniques to process textual and speech-based information.
+
+NLP uses several important techniques to process human language:
+
+Tokenization: Divides a sentence or paragraph into smaller units called tokens, such as individual words or sentences.
+
+Stemming: Reduces words to their root form by removing prefixes or suffixes. For example, "playing" may be reduced to "play".
+
+Lemmatization: Converts words into their meaningful dictionary base form using grammatical analysis.
+
+Part-of-Speech Tagging: Identifies the grammatical category of each word, such as noun, verb, adjective, or adverb.
+
+Named Entity Recognition (NER): Identifies important entities in text, such as names of people, locations, organizations, and dates.
+
+These techniques are widely used in chatbots, virtual assistants, machine translation, sentiment analysis, speech recognition, and automatic text summarization.
+
+
